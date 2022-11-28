@@ -1,1 +1,36 @@
-{% extends 'base.html' %} {% block content %} {% endblock %}
+{% extends 'base.html' %} {% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 mt-5 mb-5 shadow">
+      <h3>Connexion</h3>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Addresse Email</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="jocelynpyw@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Mot de Passe</label
+        >
+
+        <input
+          type="password"
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          placeholder="mot de passe..."
+        />
+        <button type="submit" class="btn btn-primary mt-3">
+          Connexion . . .
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
